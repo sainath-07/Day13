@@ -149,3 +149,67 @@
 //       reverse+=string[i];
 // }
 // console.log(reverse)
+
+
+// V.Assignment 5: Functions in JavaScript:
+// 1.Problem: Write a program that uses an anonymous function to print even numbers from an array.
+
+
+
+// var a=function(b){
+//     var push=[]
+//     for(i=0;i<b.length;i++){
+//      if(b[i]%2==0){
+//          push.push(b[i])
+//      }
+//     }
+//     return push
+// }
+// console.log(a([2,4,55,88,6,99,100]))
+
+
+// 2.Problem: Create an (IIFE) that generates a random number between 1 and 10 and displays whether it's even or odd.
+// (function(x){
+//       x=Math.random()*10
+//       num=x.toPrecision(1);
+//       if(num%2!=1)
+      
+//           console.log(true)
+          
+//           else
+//                     console.log(false)
+
+      
+//       console.log("Random number is : ",num)
+// }(10))
+
+
+// 3.Problem: Implement a function that takes an array of numbers and returns a new array with each element squared.
+
+// function squarearrelements(a){
+//         var push=[]
+//     for(i=0;i<a.length;i++){
+//         push.push(a[i]*a[i]);
+//     }
+//   return push;   
+// }
+// console.log(squarearrelements([2,3,4,5,6]))
+
+
+
+
+// 4.Problem: Write a program that uses arrow functions to find the sum of squares of numbers in an array.
+
+
+// var a =(x)=>{
+//     var y=[]
+//   for(i=0;i<x.length;i++){
+//       y.push(x[i]*x[i])
+       
+//   }
+//   return y;
+// }
+// console.log(a([2,5,4]))
+
+
+
